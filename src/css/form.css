@@ -1,0 +1,61 @@
+#div-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #eceffc;
+    
+  }
+  
+  .btn{
+      margin-top: 20px;
+    padding: 8px 80px;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 300px;
+    
+    color: #fff;
+  }
+  
+  .form-input-material {
+    --input-default-border-color: white;
+    --input-border-bottom-color: white;
+    
+   
+  }
+  
+  .login-form {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 40px;
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0.4px 0.4px rgba(128, 128, 128, 0.109),
+      0 1px 1px rgba(128, 128, 128, 0.155),
+      0 2.1px 2.1px rgba(128, 128, 128, 0.195),
+      0 4.4px 4.4px rgba(128, 128, 128, 0.241),
+      0 12px 12px rgba(128, 128, 128, 0.35);
+   
+  }
+  .label{
+      margin-right: 10px;
+      font-weight: 600;
+  }
+  #signup{
+      font-weight: 800;
+  }
+
+
+  /* CSS used here will be applied after bootstrap.css */
+.ekko-lightbox-nav-overlay a {
+  color: goldenrod;
+}
+.gallery-title {
+  text-align: center;
+font-weight: 500;
+border-bottom: 1px dotted orange;
+margin-top: 1em;
+}
